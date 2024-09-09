@@ -155,7 +155,7 @@ The first 5 Busy beaver values $Σ(n,2)$ are:
 | 4 |     13 |
 | 5 |   4098 |
 
-After that, the results grows extremly fast, with $n=6$ the result is already $10↑↑15$.
+After that, the results grows extremly fast, with $n=6$ the result is already $>10↑↑15$.
 
 The definition of a turing machine is not part of this document.
 
