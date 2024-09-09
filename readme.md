@@ -123,11 +123,10 @@ And when the instruction pointers reaches a `]`, the current cell is checked and
 
 ####  Read and Write
 
-The environment provides a input and a output stream of occets.
-An occet is a Byte with 8 bit.
+The environment provides a input and a output stream of numbers.
 
-A read command reads the next occet from the input stream and replaces the current cell value with
- the readed value.
+A read command reads the next number, a value from 0 to 255, from the input stream and replaces the
+ current cell value with the readed value.
 If there is no input left, the cell value is changed to -1.
 
 A write command outputs the current cell value to the output stream.
