@@ -108,9 +108,6 @@ def execute(code):
           return v
       v = getValue()
       tape[tapeIndex]=v
-      if len(s):
-        return int(s)
-      return None
     if command == "B":
       if   v<=0:   tape[tapeIndex]=0
       elif v==1:   tape[tapeIndex]=1
